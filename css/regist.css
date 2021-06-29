@@ -1,0 +1,93 @@
+body {
+    background-color: lightblue;
+}
+
+*[role="form"] {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0.3em;
+}
+
+*[role="form"] h2 {
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+.receipt{
+  height:900px;
+  width:500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  display: flex;
+  background-color:white;
+  align-items: center;
+  border-bottom: 3px solid #F1F1F1;
+  border-left: 3px solid #F1F1F1;
+  border-right: 3px solid #F1F1F1;
+  border-top: 3px solid #F1F1F1;
+  margin-top: 100px;
+}
+.school{
+  height:500px;
+  width:500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  display: flex;
+  background-color:white;
+  align-items: center;
+  border-bottom: 3px solid #F1F1F1;
+  border-left: 3px solid #F1F1F1;
+  border-right: 3px solid #F1F1F1;
+  border-top: 3px solid #F1F1F1;
+  margin-top: 100px;
+  }
+.quiz{
+    height:5800px;
+    width:500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    display: flex;
+    background-color:white;
+    align-items: center;
+    border-bottom: 3px solid #F1F1F1;
+    border-left: 3px solid #F1F1F1;
+    border-right: 3px solid #F1F1F1;
+    border-top: 3px solid #F1F1F1;
+    margin-top: 100px;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+table h3{
+  font-size: 1.5rem;
+}
+table h4{
+  font-size: 1.5rem;
+  color: red;
+}
+.button{
+  text-align: center;
+}
+input[type="text"]{
+  height:30px;
+  top:10px;
+  border-left:none;
+  border-top: none;
+  border-right: none;
+  background:transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width:313px;
+}
+.subscribe table{
+  margin-left: auto;
+  margin-right: auto;
+}
+.subscriber{
+  background-color: white;
+}

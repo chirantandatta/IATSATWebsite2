@@ -1,0 +1,82 @@
+:root{
+    --col-acc: rgb(34,72,147);
+    --col-txt: #222;
+    --col-head: #111;
+    --color-txt-light : #eaeaea;
+    --col-acc-light: rgb(68, 121, 228);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    color: #111;
+  }
+  h2{
+    font-size: 42px;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    padding-bottom: 0;
+    color: #222;
+  }
+  h1{
+    font-size: 48px;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    padding-bottom: 0;
+    color: #222;
+  }
+
+
+  ul{
+    list-style: none;
+  }
+  ul li{
+    color: var(--col-txt);
+
+  }
+  .product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    transform: rotate(30deg);
+  }
+
+  .product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+  }
+
+  .product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+  }
+
+
+  /*
+   * Extra utilities
+   */
+
+  .flex-equal > * {
+    flex: 1;
+  }
+  @media (min-width: 992px) {
+    .flex-md-equal > * {
+      flex: 1;
+    }
+  }
+.fc-light{
+    color: #eaeaea !important;
+}  

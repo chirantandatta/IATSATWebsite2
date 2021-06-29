@@ -1,0 +1,27 @@
+:root{
+  --col-acc: rgb(34,72,147);
+  --col-txt: #222;
+  --col-head: #111;
+  --color-txt-light : #eaeaea;
+  --col-acc-light: rgb(68, 121, 228);
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  color: #111;
+}
+h2{
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  padding-bottom: 0;
+  color: #222;
+}
+
+ul{
+  list-style: none;
+}
+ul li{
+  color: var(--col-txt);
+
+}
